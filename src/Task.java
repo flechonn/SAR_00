@@ -1,6 +1,5 @@
 /**
- * Represents an abstract Task that extends the Thread class.
- * This class should be extended to create specific tasks.
+ * A task is a thread that can be executed by a broker.
  */
 abstract class Task extends Thread {
     Broker broker;
@@ -15,7 +14,7 @@ abstract class Task extends Thread {
     }
 
     /**
-     * Returns the broker.
+     * Returns the broker that belong to this task.
      *
      * @return the broker.
      */
