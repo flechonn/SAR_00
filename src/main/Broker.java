@@ -1,3 +1,4 @@
+package main;
 abstract class Broker {
     /* The name of the broker, must be unique */
     // un broquer peut avoir plusieur tache 

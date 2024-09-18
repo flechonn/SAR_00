@@ -1,3 +1,4 @@
+package main;
 /**
  * This abstract class represents a channel for reading and writing data.
  * It provides methods for reading from and writing (bidrectionnal) to the channel, as well as checking its connection status.
